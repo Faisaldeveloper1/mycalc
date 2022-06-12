@@ -72,7 +72,7 @@ body {
 }
 
 #calcbtn:hover {
-    background-color: rgb(24, 72, 134);
+    background-color: rgb(78, 132, 202);
 }
 
 .main {
@@ -81,7 +81,7 @@ body {
     color: rgb(10, 10, 10);
     border: 1px solid #504f4f;
     font-weight: bold;
-    background-color: rgb(24, 72, 134);
+    background-color: rgb(78, 132, 202);
     cursor: pointer;
     border-radius: 10px;
     margin: 2px;
