@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background: cover;
+}
+
+#heading {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.calculator_main {
+    margin-top: 60px;
+    box-shadow: 0 0 20px 10px rgb(84, 2, 138);
+    width: 350px;
+    height: 450px;
+    margin-left: 520px;
+    border-radius: 10px;
+    outline: dashed;
+    background-color: rgb(206, 195, 195);
+    position: fixed;
+}
+
+#display {
+    display: flex;
+    justify-content: right;
+    height: 77px;
+    width: inherit;
+    font-size: 50px;
+    background-color: white !important;
+    line-height: 1.4;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    height: 77px;
+    width: inherit;
+    border-radius: 10px;
+}
+
+.clear_equal {
+    display: flex;
+    justify-content: center;
+    height: 41px;
+    width: inherit;
+}
+
+#calcbtn {
+    flex: 1;
+    font-size: 1.5rem;
+    color: rgb(10, 10, 10);
+    border: 1px solid #504f4f;
+    font-weight: bold;
+    background-color: rgb(207, 207, 204);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.main:hover {
+    background-color: rgb(207, 207, 204);
+}
+
+.calcbtn:hover {
+    background-color: rgb(24, 72, 134);
+}
+
+.main {
+    flex: 1;
+    font-size: 1.5rem;
+    color: rgb(10, 10, 10);
+    border: 1px solid #504f4f;
+    font-weight: bold;
+    background-color: rgb(24, 72, 134);
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+#textbox {
+    width: 100%;
+    height: 75px;
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: rgb(129, 129, 107);
+}
+
+h4 i {
+    margin-left: 10px;
+}
